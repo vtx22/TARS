@@ -1,13 +1,14 @@
 clear
 clc
+%% Simulation Parameters
+simTime = 10;
 %% Environmental Constants
 gravity = 9.81;
 airDensity = 1.2041;
 
 %% Quadcopter Parameters
-% Mass [kg]
-quadcopterMass = 1.4;
 % Airframe 
+quadcopterMass = 1.4;
 armLength = 0.23;
 airframeXY = 0.15;
 airframeDiameter = 0.33;
@@ -24,6 +25,12 @@ rotorTheta1 = -0.1361;
 rotorCq = 7.83e-4;
 rotorCt = 0.0107;
 
+% Min and Max thrust for motor
 motorMaxLimit = 100;
 motorMinLimit = 10;
+% w^2 = 27000 * PWM
 commandToW2Gain = 27000;
+
+
+%% RUN SIM
+sim('Quadcopter', simTime)
