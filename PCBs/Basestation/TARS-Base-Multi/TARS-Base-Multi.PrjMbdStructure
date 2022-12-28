@@ -1,0 +1,4 @@
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\PCB_Project\TARS-Base.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc|ProjectPath=..\PCB_Project\TARS-Base.PrjPcb
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=..\TARS-Base-TopBoard\TARS-Base-TopBoard.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc|ProjectPath=..\TARS-Base-TopBoard\TARS-Base-TopBoard.PrjPcb
