@@ -31,6 +31,7 @@ motorMinLimit = 10;
 % w^2 = 27000 * PWM
 commandToW2Gain = 27000;
 
+thrust = [20;20;20;0]
 
 %% RUN SIM
 sim('Quadcopter', simTime)
